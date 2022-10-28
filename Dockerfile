@@ -7,8 +7,9 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-EXPOSE 3000
+ENV APP_PORT=3000
 
-# Obs: não recomendado para produção
+
+ #Obs: não recomendado para produção
 # mais informações: https://flask.palletsprojects.com/en/2.2.x/deploying/
 CMD [ "python3", "app.py" ]
