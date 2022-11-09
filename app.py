@@ -20,6 +20,10 @@ def counter():
     count+=1
     return str(count)
 
+@app.route("/version")
+def version():
+    return "2.0.0"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=os.environ.get("APP_PORT"), debug=True)
     
