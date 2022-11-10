@@ -17,7 +17,7 @@ spec:
     spec:
       containers: 
       - name: app-flask
-        image: app-flask:2.0.0
+        image: app-flask:1.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
