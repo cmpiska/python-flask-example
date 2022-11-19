@@ -1,0 +1,76 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  curl https://releases.rancher.com/install-docker/20.10.sh | sh
+    4  sudo groupadd docker
+    5  sudo usermod -aG docker $USER
+    6  groups
+    7  exit
+    8  docker ps
+    9  git config --global user.name "cmpiska"
+   10  git config --global user.email "claudiopiska@gmail.com"
+   11  git config --global core.autocrlf false
+   12  git config --global core.filemode false
+   13  git config --global color.ui true
+   14  ssh-keygen -o -t ed25519 -C "claudiopiska@gmail.com" -N "Chave SSH PCPUC para AZURE" -f ~/.ssh/id_ed25519
+   15  cat ~/.ssh/id_ed25519.pub
+   16  git clone git@github.com:cmpiska/python-flask-example.git
+   17  git@github.com:cmpiska/python-flask-example.git
+   18  git clone git@github.com:cmpiska/python-flask-example.git
+   19  ssh-keygen -o -t ed25519 -C "claudiopiska@gmail.com" -N "" -f ~/.ssh/id_ed25519
+   20  cat ~/.ssh/id_ed25519.pub
+   21  git clone git@github.com:cmpiska/python-flask-example.git
+   22  cd python-flask-example/
+   23  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+   24  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+   25  sudo apt-get update && sudo apt-get install google-cloud-cli
+   26  cat /etc/apt/sources.list.d/google-cloud-sdk.list
+   27  sudo apt kubectl
+   28  sudo apt-get kubectl
+   29  sudo apt install kubectl
+   30  kubectl version
+   31  kubectl version --output=yaml
+   32  gcloud init
+   33  export PROJECT_ID=axial-willow-332912
+   34  echo $ PROJECT_ID
+   35  echo $PROJECT_ID
+   36  gcloud project lists
+   37  gcloud project list
+   38  gcloud auth configure-docker
+   39  docker image ls
+   40  gcloud projects list
+   41  docker build . -t grc.io $PROJECT_ID/app-flask:1.0.0
+   42  docker build . -t grc.io/$PROJECT_ID/app-flask:1.0.0
+   43  docker run --rm -d -p 3000:3000 --name node grc.io/axial-willow-332912/app-flask
+   44  docker run --rm -d -p 3000:3000 --name node grc.io/axial-willow-332912/app-flask:1.0.0
+   45  curl localhost:3000
+   46  docker stop node
+   47  docher 
+   48  docker push grc.io/axial-willow-332912/app-flask:1.0.0
+   49  gcloud container clusters create demo-cluster --num_nodes=3
+   50* 
+   51  gcloud container clusters create demo-cluster --num-nodes=3 
+   52  gcloud init
+   53  gcloud container clusters create demo-cluster --num_nodes=3
+   54  gcloud container clusters create demo-cluster --num-nodes=3
+   55  gcloud init
+   56  gcloud container clusters create demo-cluster --num-nodes=3 --region=1
+   57  gcloud container clusters create demo-cluster --num-nodes=3 --region=42
+   58  gcloud container clusters create demo-cluster --num-nodes=3 --region 42
+   59  gcloud container clusters create demo-cluster --num-nodes=3
+   60  gcloud container clusters create demo-cluster --num-nodes=3 --location=42
+   61  export PROJECT_ID=axial-willow-332912
+   62  echo $PROJECT_ID
+   63  gcloud projects lists
+   64  gcloud projects lists
+   65  gcloud projects list
+   66  gcloud auth configure-docker
+   67  gcloud init
+   68  gcloud container clusters create demo-cluster --num_nodes=3
+   69  gcloud container clusters create demo-cluster --num-nodes=3
+   70  gcloud container clusters create democluster --num-nodes=3
+   71  gcloud init
+   72  gcloud container clusters create demo-cluster --num-nodes=3
+   73  gcloud init
+   74  gcloud container clusters create demo-cluster --num-nodes=3
+   75  history >> historic
+   76  history >> comandos-19-11.txt 

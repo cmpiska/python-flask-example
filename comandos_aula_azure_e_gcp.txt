@@ -1,0 +1,175 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  curl https://releases.rancher.com/install-docker/20.10.sh | sh
+    4  sudo groupadd docker
+    5  sudo usermod -aG docker $USER
+    6  groups
+    7  exit
+    8  docker ps
+    9  git config --global user.name "cmpiska"
+   10  git config --global user.email "claudiopiska@gmail.com"
+   11  git config --global core.autocrlf false
+   12  git config --global core.filemode false
+   13  git config --global color.ui true
+   14  ssh-keygen -o -t ed25519 -C "claudiopiska@gmail.com" -N "Chave SSH PCPUC para AZURE" -f ~/.ssh/id_ed25519
+   15  cat ~/.ssh/id_ed25519.pub
+   16  git clone git@github.com:cmpiska/python-flask-example.git
+   17  git@github.com:cmpiska/python-flask-example.git
+   18  git clone git@github.com:cmpiska/python-flask-example.git
+   19  ssh-keygen -o -t ed25519 -C "claudiopiska@gmail.com" -N "" -f ~/.ssh/id_ed25519
+   20  cat ~/.ssh/id_ed25519.pub
+   21  git clone git@github.com:cmpiska/python-flask-example.git
+   22  cd python-flask-example/
+   23  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+   24  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+   25  sudo apt-get update && sudo apt-get install google-cloud-cli
+   26  cat /etc/apt/sources.list.d/google-cloud-sdk.list
+   27  sudo apt kubectl
+   28  sudo apt-get kubectl
+   29  sudo apt install kubectl
+   30  kubectl version
+   31  kubectl version --output=yaml
+   32  gcloud init
+   33  export PROJECT_ID=axial-willow-332912
+   34  echo $ PROJECT_ID
+   35  echo $PROJECT_ID
+   36  gcloud project lists
+   37  gcloud project list
+   38  gcloud auth configure-docker
+   39  docker image ls
+   40  gcloud projects list
+   41  docker build . -t grc.io $PROJECT_ID/app-flask:1.0.0
+   42  docker build . -t grc.io/$PROJECT_ID/app-flask:1.0.0
+   43  docker run --rm -d -p 3000:3000 --name node grc.io/axial-willow-332912/app-flask
+   44  docker run --rm -d -p 3000:3000 --name node grc.io/axial-willow-332912/app-flask:1.0.0
+   45  curl localhost:3000
+   46  docker stop node
+   47  docher 
+   48  docker push grc.io/axial-willow-332912/app-flask:1.0.0
+   49  gcloud container clusters create demo-cluster --num_nodes=3
+   50  gcloud container clusters create demo-cluster --num-nodes=3 
+   51  gcloud init
+   52  gcloud container clusters create demo-cluster --num_nodes=3
+   53  gcloud container clusters create demo-cluster --num-nodes=3
+   54  gcloud init
+   55  gcloud container clusters create demo-cluster --num-nodes=3 --region=1
+   56  gcloud container clusters create demo-cluster --num-nodes=3 --region=42
+   57  gcloud container clusters create demo-cluster --num-nodes=3 --region 42
+   58  gcloud container clusters create demo-cluster --num-nodes=3
+   59  gcloud container clusters create demo-cluster --num-nodes=3 --location=42
+   60  export PROJECT_ID=axial-willow-332912
+   61  echo $PROJECT_ID
+   62  gcloud projects lists
+   63  gcloud projects lists
+   64  gcloud projects list
+   65  gcloud auth configure-docker
+   66  gcloud init
+   67  gcloud container clusters create demo-cluster --num_nodes=3
+   68  gcloud container clusters create demo-cluster --num-nodes=3
+   69  gcloud container clusters create democluster --num-nodes=3
+   70  gcloud init
+   71  gcloud container clusters create demo-cluster --num-nodes=3
+   72  gcloud init
+   73  gcloud container clusters create demo-cluster --num-nodes=3
+   74  history >> historic
+   75  history >> comandos-19-11.txt 
+   76  exit
+   77  sudp apt install google-sdk-gke-gcloud-auth-plugin
+   78  sudo apt install google-sdk-gke-gcloud-auth-plugin
+   79  sudo apt install google-cloud-sdk-gke-gcloud-auth-plugin
+   80  docker run --rm -d -p 3000:3000 --name node gcr.io/axial-willow-332912/app-flask:1.0.0
+   81  docker push grc.io/axial-willow-332912/app-flask:1.0.0
+   82  docker push gcr.io/axial-willow-332912/app-flask:1.0.0
+   83  docker run --rm -d -p 3000:3000 --name node gcr.io/axial-willow-332912/app-flask:1.0.0
+   84  docker build . -t gcr.io $PROJECT_ID/app-flask:1.0.0
+   85* 
+   86  docker image ls
+   87* 
+   88  docker image ls
+   89  cd python-flask-example/
+   90* 
+   91  docker image ls
+   92  docker image ls -s
+   93  docker build . -t gcr.io $PROJECT_ID/app-flask:1.0.0
+   94  docker build . -t gcr.io/$PROJECT_ID/app-flask:1.0.0
+   95  echo $prev 
+   96  echo $PROJECT_ID
+   97  gloud init
+   98  cat comandos-19-11.txt 
+   99  export PROJECT_ID=axial-willow-332912
+  100  echo $PROJECT_ID
+  101  docker build . -t gcr.io/$PROJECT_ID/app-flask:1.0.0
+  102  docker push gcr.io/axial-willow-332912/app-flask:1.0.0
+  103  docker run --rm -d -p 3000:3000 --name node gcr.io/axial-willow-332912/app-flask:1.0.0
+  104  gcloud init
+  105  docker push gcr.io/axial-willow-332912/app-flask:1.0.0
+  106  kubectl getnodes
+  107  kubectl get nodes
+  108  sudo apt install google-cloud-sdk-gke-gcloud-auth-plugin
+  109  export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+  110  vim /.bashrc
+  111  vim ~/.bashrc
+  112  gcloud projects list
+  113  gcloud container clusters create demo-cluster --num-nodes=3
+  114  docker push gcr.io/axial-willow-332912/app-flask:1.0.0
+  115  ls
+  116  git branch
+  117  git kubernetes/desafio-01
+  118  git checkout kubernetes/desafio-01
+  119  git branch
+  120  ls
+  121  cat app-1.0.0.deployment.yml  >> app.edployment.yml
+  122  vim app.deployment
+  123  cat app-1.0.0.deployment.yml  >> app.deployment.yml
+  124  vim app.deployment
+  125  rm app.deployment
+  126  vim app.deployment.yml
+  127  kubectl apply -f app.deployment.yml 
+  128  ls
+  129  cat app.load.balancer.yml >> app.load.balancer.google.yml 
+  130  vim app.load.balancer.google.yml 
+  131  kubectl apply -f app.load.balancer.google.yml 
+  132  kubectl get all
+  133  docker image ls
+  134  vim app.deployment.yml 
+  135  docker image ls
+  136  vim app.deployment.yml 
+  137  kubectl delete -f app.load.balancer.google.yml 
+  138  kubectl delete -f app.deployment.yml 
+  139  vim app.deployment.yml 
+  140  kubectl delete -f app.deployment.yml 
+  141  kubectl delete -f app.deployment.yml
+  142  vim app.deployment.yml 
+  143  kubectl delete -f app.deployment.yml
+  144  vim app.deployment.yml 
+  145  kubectl apply -f app.deployment.yml
+  146  kubectl apply -f app.load.balancer.google.yml 
+  147  kubectl get pods
+  148  kubectl get all
+  149  curl localhost
+  150  ls
+  151  vim app.py
+  152  kubectl get services
+  153  kubectl get service load-balancer-service --output yml
+  154  kubectl get service load-balancer-service --output.yml
+  155  vim app.deployment.yml 
+  156  kubectl apply -f app.deployment.yml
+  157  kubectl get pods
+  158  kubectl get all
+  159  gcloud container clusters resize  demo-cluster --num-nodes=5
+  160  kubectl get pods
+  161* kubectl delete -f
+  162  kubectl det pods
+  163  kubectl get pods
+  164  kubectl get all
+  165  kubectl delete -f app.deployment.yml
+  166  kubectl delete -f app.load.balancer.google.yml 
+  167  kubectl get all
+  168  gcloud container clusters list
+  169  gcloud container clusters delete demo-cluster
+  170  docker images ls
+  171  gcloud cintainer images 
+  172  gcloud container image
+  173  gcloud container images delete gcr.io/axial-willow-332912/app-flask:1.0.0
+  174  gcloud container image delete gcr.io/axial-willow-332912/app-flask:1.0.0
+  175  history >> comandos_aula_azure_e_gcp.txt
